@@ -1,0 +1,26 @@
+
+div a {
+    background-image: url('extref.png');
+    background-position: left top ;
+    background-repeat: no-repeat;
+    padding: 0px 10px;
+}
+.text1 {
+    color: green;
+ 
+}
+.text2 {
+    color: red;
+}
+div p,h3{
+    padding: 0px;
+    margin: 0px;
+}
+p#top {
+    font-style: italic;
+    color: royalblue; 
+}
+ a{
+    color: rgb(5, 28, 95);
+    font-weight: bold;
+}

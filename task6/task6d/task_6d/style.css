@@ -1,0 +1,10 @@
+div.block{
+   position: absolute;
+    display: flex;
+   flex-direction: row-reverse;
+}
+a.star:hover,a.star:hover~a.star{
+    content: url('./star1.png');
+    font-size: 80px;
+    background-color: brown;
+}
