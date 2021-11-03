@@ -1,0 +1,28 @@
+.imgleft{
+    background: url('middle-big.png') repeat-y;
+}
+.imgright{
+     background: url('middle-big.png') repeat-y 100% 0%;
+}
+.imgtop{
+    background: url('middle.png') repeat-x;
+}
+.imgbotton{
+    background: url('middle.png') repeat-x 0% 100%;
+}
+.imgleftop{
+    background: url('left-top.png') no-repeat left top;
+}
+.imgleftbotton{
+    background: url('left-bottom.png') no-repeat left bottom;
+}
+.imgrighttop{
+    background: url('./right-top.png') no-repeat right top ;
+}
+.imgrightbotton{
+    background: url('./right-bottom.png') no-repeat right bottom ;
+}
+.text{
+    padding: 40px;
+    font-size: 15px;
+}
