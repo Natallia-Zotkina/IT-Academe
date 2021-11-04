@@ -1,0 +1,19 @@
+body{
+    background-image: url('i.jpg');
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: contain;
+    background-color: wheat;
+    text-align: left;   
+}
+
+h1,h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;  
+}
+
+p{
+    font-family: 'Vollkorn', serif; 
+     white-space: pre;
+}
