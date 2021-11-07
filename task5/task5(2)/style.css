@@ -1,0 +1,63 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-image: url('./мяч.svg');
+    background-size: 43px;
+    background-position: 100% 18%;
+    background-repeat: repeat-y;
+    position: relative;
+    z-index: 1;
+}
+
+td.menu{
+    min-width: 15%;
+    float: left;
+    background-color: rgb(238, 234, 14);
+    background-repeat: repeat-y;
+    }
+    
+td.menu ul{
+    list-style-type: disc;
+    text-align: left;
+    padding: 0px 5px 40px 25px;
+}
+
+td.menu p{
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+h2,h3{
+    margin: 0px;
+    text-align: center;
+}
+
+h3{
+    padding-top: 0ex;
+}
+
+.content{
+    margin-left: 15%;
+/*position: relative;
+    z-index: 2;*/
+}
+
+img{
+    float: left;
+    margin: 20px;
+}
+
+.top{
+    text-align: center;
+    padding: 5px;
+    color: rgb(17, 7, 156);
+    background-color: rgb(10, 182, 194);
+}
+
+.bottom{
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    color: rgb(17, 7, 156);
+    background-color: rgb(10, 182, 194);
+}
