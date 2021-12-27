@@ -1,0 +1,24 @@
+div a::before {
+    content: url('extref.png');
+    color: rgb(5, 28, 95);
+    font-weight: bold;
+}
+.text1 {
+    color: green;
+ 
+}
+.text2 {
+    color: red;
+}
+div p,h3{
+    padding: 0px;
+    margin: 0px;
+}
+p#top {
+    font-style: italic;
+    color: royalblue; 
+}
+p a{
+    color: rgb(5, 28, 95);
+    font-weight: bold;
+}

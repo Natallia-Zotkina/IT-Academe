@@ -1,0 +1,67 @@
+div a:hover{
+    color: red;
+    padding: 20px;
+}
+div.links_1 nav a:nth-of-type(even){
+    border: solid rgb(255, 9, 9) 2px;
+    border-top-style: none;
+    border-bottom-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 40px;}
+
+div.links_2 ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-left: 0px;
+} 
+
+div.links_2 li{
+    display: inline;
+    border-left: 2px solid red;
+    padding: 10px 0px;
+   } 
+
+div.links_2 a{
+    display: inline-block;
+    padding: 10px 5px;
+   
+}
+div.links_2 li:first-child{
+    border-left: none;
+}
+ 
+div.links_3 table td:nth-of-type(even){
+    width: 120px;
+    height: 40px;
+}
+div.links_3 td:nth-of-type(even){
+    border: solid rgb(255, 9, 9) 2px;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+
+div.links_3 table tr:nth-of-type(even) td{
+    height: 10px;
+    border: none;
+}
+
+div.links_4 a:nth-of-type(even)::after{
+    content:url('icons8-вертикальная-линия-30.png');
+}
+
+div.links_4 a:nth-of-type(even)::before{
+    content: url('icons8-вертикальная-линия-30.png');
+}
+div.links_4 a{
+    padding: 20px 0px;
+}
+div.links_4 p{
+    margin: 10px 0px;
+}
+
